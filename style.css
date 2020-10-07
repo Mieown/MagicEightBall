@@ -1,0 +1,80 @@
+* {
+    font-family: 'Shrikhand', cursive;
+    color: pink;
+}
+
+body {
+    background-image: url('pinkclouds.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 850px;
+  }
+
+#content {
+    background: white;
+    width: 460px;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 6%;
+    color: pink;
+}
+
+h2 {
+    font-size: 23px;
+    margin-top: 1%;
+    font-kerning: normal;
+    color: pink;
+}
+
+#questionArea {
+    margin-top: 1%;
+    border: 2px solid pink;
+    border-radius: 3px;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(247, 95, 95);
+}
+
+button {
+    width: 30%;
+    height: 4.5%;
+    margin-top: 6.5%;
+    transition-duration: 0.4s;
+    border: 2px solid pink;
+    background-color: rgb(240, 240, 240);
+    color: pink;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: pink;
+    color: rgb(247, 95, 95);
+  }
+
+
+#heart1 {
+    position: relative;
+    margin: auto;
+    margin-top: 47px;
+    margin-bottom: 3%;
+    width: 400px;    
+}
+
+#answer {
+    position: absolute;
+    text-align: center;
+    top: calc(44% - 20px); /* 20 px står för fontstorlek*/
+    width: 100%;
+    font-size: 22px;
+    color: rgb(247, 95, 95);
+}
